@@ -13,6 +13,8 @@ body {
   font-size: 1.5rem;
   font-family: "Anek Telugu", sans-serif;
 }
+
+/* --------------------------------------NAVBAR--------------------------------------- */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -103,4 +105,16 @@ body {
 
 .hamburger {
   display: none;
+}
+
+/* --------------------------------MAİN------------------------------- */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem;
+  row-gap: 3rem;
+}
+.container img {
+  width: 100%;
 }
