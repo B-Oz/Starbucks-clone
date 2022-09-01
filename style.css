@@ -199,15 +199,17 @@ body {
 /* -------------------------FOOTER------------------------------- */
 
 .footer-up {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
   padding: 3rem;
   border-bottom: 2.5px solid rgb(232, 229, 229);
+  margin: auto;
 }
 
 .footer-ul {
   margin-right: 5rem;
+  padding: 0 2%;
 }
 .footer-ul h3 {
   font-size: 20px;
@@ -272,4 +274,5 @@ a {
 .footer-end {
   padding: 0 3rem;
   opacity: 0.7;
+  margin-bottom: 4rem;
 }
