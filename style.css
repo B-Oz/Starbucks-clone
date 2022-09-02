@@ -92,6 +92,7 @@ body {
 }
 .left-navbar img {
   margin: 1rem;
+  width: 50px;
 }
 .left-navbar a {
   margin: 1.2rem;
@@ -333,7 +334,8 @@ a {
     border: none;
     background-color: transparent;
     font-size: 2rem;
-    padding-left: 27rem;
+    /* padding-left: 27rem; */
+    align-items: center;
   }
 
   .footer-icons {
@@ -349,9 +351,69 @@ a {
   .footer-information a {
     letter-spacing: 0.2rem;
     padding-left: 4rem;
+    border: none;
   }
 
   .footer-end {
     padding-left: 5rem;
   }
+}
+
+@media screen and (max-width: 878px) {
+  .left-navbar .none {
+    display: none;
+  }
+
+  .right-navbar .none {
+    display: none;
+  }
+  .hamburger {
+    display: inline;
+    margin-right: 5rem;
+    font-size: 2rem;
+    opacity: 0.6;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 839px) {
+  .text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-navbar img {
+    width: 40px;
+    margin-left: 0;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    padding: 0;
+  }
+  .grid1-img {
+    margin-top: 3rem;
+  }
+
+  .text {
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .container .grid2 {
+    grid-row: 4;
+  }
+
+  .container .grid4 {
+    grid-row: 8;
+  }
+}
+
+@media screen and (max-width: 540px) {
 }
