@@ -334,7 +334,6 @@ a {
     border: none;
     background-color: transparent;
     font-size: 2rem;
-    /* padding-left: 27rem; */
     align-items: center;
   }
 
@@ -416,4 +415,27 @@ a {
 }
 
 @media screen and (max-width: 540px) {
+  .footer-ul {
+    font-size: 1.5rem;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-ul button {
+    margin-left: 2rem;
+  }
+  .footer-icons {
+    padding-left: 2rem;
+  }
+  .footer-information a {
+    padding-left: 2rem;
+    font-size: 14px;
+    margin: 1rem 0rem;
+  }
+
+  .footer-end {
+    font-size: 12px;
+    padding-left: 3rem;
+    margin-top: 1rem;
+  }
 }
